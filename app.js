@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
     //end method MUST be called on each response
     //send data to client
     if(path === '/') {
-        res.end('This is the home page');
+        res.end('This is the home page!');
     }else if(path === '/product') {
         res.end('This is the product page')
     }else if(path === '/api'){
